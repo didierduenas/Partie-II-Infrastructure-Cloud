@@ -80,24 +80,17 @@ Vous ferez la démonstration du bon fonctionnement de chacune des infrastructure
 
 Vous pouvez utiliser un support de présentation (ex: diaporama).
 
------------------------------------------------------
-
-![image](https://user-images.githubusercontent.com/71215691/136080553-316eefc9-2b57-4c4d-aa4c-019d70759b6f.png)
-
-Le contrôleur Application Gateway Ingress permet d’utiliser la passerelle Azure Application Gateway comme entrée pour un cluster Azure Kubernetes Service alias AKS. Comme le montre la figure ci-dessous, le contrôleur d’entrée fonctionne comme un module dans le cluster AKS. Il consomme Kubernetes Ingress Resources et les convertit en une configuration Azure Application Gateway qui permet à la passerelle d’équilibrer le trafic vers les pods Kubernetes.
-
-Ce module aide à déployer les ressources nécessaires pour le déploiement en champ vierge des ressources nécessaires pour le cluster AKS avec Application Gateway comme contrôleur d’entrée.
-
-Démonstration pour la Partie I
-
-Détruire les machines s1.infra dans votre l’infrastructure
-Montrer que les sites wordpress fonctionnent toujours et que le load-balancer redirige vers le seul serveur applicatif en fonctionnement
-Détruire ensuite s0.infra et s2.infra dans votre l’infrastructure
-Montrer que les sites wordpress ne fonctionnent plus)
-Re-déployez automatiquement avec vos scripts (ansible, puppet, etc.)
-Vous devez obtenir une infrastructure identique à la première fois.
-Vos données et votre site doivent être toujours fonctionnels
 Démonstration pour la Partie II
 Détruire l’un des pods de Dolibarr
 Montrer que le service continue à fonctionner
 Montrer que la seconde réplique du Pod est revenue
+-----------------------------------------------------
+
+![image](https://user-images.githubusercontent.com/71215691/136080553-316eefc9-2b57-4c4d-aa4c-019d70759b6f.png)
+
+Le contrôleur Application Gateway Ingress permet d’utiliser la passerelle Azure Application Gateway comme entrée pour un cluster Azure Kubernetes Service alias AKS. Comme le montre la figure ci-dessus, le contrôleur d’entrée fonctionne comme un module dans le cluster AKS. Il consomme Kubernetes Ingress Resources et les convertit en une configuration Azure Application Gateway qui permet à la passerelle d’équilibrer le trafic vers les pods Kubernetes.
+
+Ce module aide à déployer les ressources nécessaires pour le déploiement en champ vierge des ressources nécessaires pour le cluster AKS avec Application Gateway comme contrôleur d’entrée.
+
+
+
