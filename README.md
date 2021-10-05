@@ -1,7 +1,6 @@
 
 #  Démonstration pour la Partie II
-Azure Load Balancer
-![image](https://user-images.githubusercontent.com/71215691/136098013-f039a3ac-9441-4b04-ae6d-6b19e123d3dd.png) 
+
 
 Détruire l’un des pods
 Montrer que le service continue à fonctionner
@@ -12,6 +11,9 @@ Azure Load Balancer est un service d'équilibrage de charge de couche 4 hautes p
 
 L'équilibrage de charge fait référence à la répartition uniforme de la charge (trafic réseau entrant) sur un groupe de ressources backend ou de serveurs, Azure Load Balancer distribue les flux entrants qui arrivent du front-end de l'équilibreur de charge aux instances de pool principal.
 
+
+Azure Load Balancer
+![image](https://user-images.githubusercontent.com/71215691/136098013-f039a3ac-9441-4b04-ae6d-6b19e123d3dd.png) 
 Les pods sont configurées avec l'algorithmes de répartition de charge Round-robin (Requête envoyé au serveur 1  puis  2 … n) .
 
 
