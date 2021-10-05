@@ -1,10 +1,6 @@
 
 #  Démonstration pour la Partie II
 
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
-
 ![image](https://user-images.githubusercontent.com/71215691/136080553-316eefc9-2b57-4c4d-aa4c-019d70759b6f.png)
 
 Détruire l’un des pods
@@ -25,17 +21,17 @@ Usage of the module
 # Configure the Azure provider
 # We strongly recommend using the required_providers block to set the
 # Azure Provider source and version being used
-terraform {
-  required_providers {
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "~> 2.14.0"
-    }
+###### terraform {
+######   required_providers {
+######     azurerm = {
+######       source  = "hashicorp/azurerm"
+######       version = "~> 2.14.0"
+######     }
 
-  }
-  # Configure the Microsoft Azure Provider
-  required_version = ">= 0.15.3"
-}
+######   }
+######   # Configure the Microsoft Azure Provider
+######   required_version = ">= 0.15.3"
+###### }
 
 provider "azurerm" {
   features {}
