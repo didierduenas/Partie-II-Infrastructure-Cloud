@@ -18,7 +18,7 @@ Montrer que le service continue à fonctionner
 Montrer que la seconde réplique du Pod est revenue
 -----------------------------------------------------
 
-Les pods sont configurées avec l'algorithmes de répartition de charge Round-robin (Requête envoyé au serveur 1  puis  2 … n) .
+Kubernetes donne aux pods leurs propres adresses IP et un nom DNS unique pour un ensemble de pods, et peut équilibrer la charge entre eux, les pods sont configurées avec l'algorithmes de répartition de charge Round-robin (Requête envoyé au serveur 1  puis  2 … n) .
 
 # Partie-II-Infrastructure-Cloud
 Docker, dockerhub, service Dolibarr, déploiement continu Gitlab , kubernetes
