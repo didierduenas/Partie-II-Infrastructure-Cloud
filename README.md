@@ -15,6 +15,8 @@ Le contrôleur Application Gateway Ingress permet d’utiliser la passerelle Azu
 Ce module aide à déployer les ressources nécessaires pour le déploiement en champ vierge des ressources nécessaires pour le cluster AKS avec Application Gateway comme contrôleur d’entrée.
 
 Les pods sont configurées avec l'algorithmes de répartition de charge Round-robin (Requête envoyé au serveur 1  puis  2 … n) .
+![image](https://user-images.githubusercontent.com/71215691/136083823-fd29d96c-f876-4c5a-9397-d57d1b450b4a.png)
+
 
 
 Usage of the module
