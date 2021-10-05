@@ -1,16 +1,16 @@
 
 #  Démonstration pour la Partie II
-
-![image](https://user-images.githubusercontent.com/71215691/136080553-316eefc9-2b57-4c4d-aa4c-019d70759b6f.png)
+Azure Load Balancer
+![image](https://user-images.githubusercontent.com/71215691/136098013-f039a3ac-9441-4b04-ae6d-6b19e123d3dd.png) 
 
 Détruire l’un des pods
 Montrer que le service continue à fonctionner
 Montrer que la seconde réplique du Pod est revenue
 -----------------------------------------------------
 
-Le contrôleur Application Gateway Ingress permet d’utiliser la passerelle Azure Application Gateway comme entrée pour un cluster Azure Kubernetes Service alias AKS. Comme le montre la figure ci-dessus, le contrôleur d’entrée fonctionne comme un module dans le cluster AKS. Il consomme Kubernetes Ingress Resources et les convertit en une configuration Azure Application Gateway qui permet à la passerelle d’équilibrer le trafic vers les pods Kubernetes.
+Azure Load Balancer est un service d'équilibrage de charge de couche 4 hautes performances et à faible latence (entrant et sortant) pour tous les protocoles UDP et TCP. Il est conçu pour gérer des millions de demandes par seconde tout en garantissant la haute disponibilité. Il est redondant par zone, garantissant une haute disponibilité dans toutes les zones de disponibilité.
 
-Ce module aide à déployer les ressources nécessaires pour le déploiement en champ vierge des ressources nécessaires pour le cluster AKS avec Application Gateway comme contrôleur d’entrée.
+L'équilibrage de charge fait référence à la répartition uniforme de la charge (trafic réseau entrant) sur un groupe de ressources backend ou de serveurs, Azure Load Balancer distribue les flux entrants qui arrivent du front-end de l'équilibreur de charge aux instances de pool principal.
 
 Les pods sont configurées avec l'algorithmes de répartition de charge Round-robin (Requête envoyé au serveur 1  puis  2 … n) .
 ![image](https://user-images.githubusercontent.com/71215691/136083823-fd29d96c-f876-4c5a-9397-d57d1b450b4a.png)
