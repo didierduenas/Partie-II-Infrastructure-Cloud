@@ -13,8 +13,6 @@ Azure Load Balancer est un service d'équilibrage de charge de couche 4 hautes p
 L'équilibrage de charge fait référence à la répartition uniforme de la charge (trafic réseau entrant) sur un groupe de ressources backend ou de serveurs, Azure Load Balancer distribue les flux entrants qui arrivent du front-end de l'équilibreur de charge aux instances de pool principal.
 
 Les pods sont configurées avec l'algorithmes de répartition de charge Round-robin (Requête envoyé au serveur 1  puis  2 … n) .
-![image](https://user-images.githubusercontent.com/71215691/136083823-fd29d96c-f876-4c5a-9397-d57d1b450b4a.png)
-
 
 
 # Partie-II-Infrastructure-Cloud
