@@ -1,7 +1,9 @@
 
 #  Démonstration pour la Partie II
 
-
+# This is an <h1> tag
+## This is an <h2> tag
+###### This is an <h6> tag
 
 ![image](https://user-images.githubusercontent.com/71215691/136080553-316eefc9-2b57-4c4d-aa4c-019d70759b6f.png)
 
